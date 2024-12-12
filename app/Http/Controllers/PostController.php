@@ -33,7 +33,8 @@ class PostController extends Controller
 
         $post = Post::create($feilds);
 
-        return ['post' => $post];
+        // return ['post' => $post];
+        return $post;
     }
 
     /**
@@ -41,7 +42,8 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-        return ['post' => $post];
+        // return ['post' => $post];
+        return $post;
     }
 
     /**
