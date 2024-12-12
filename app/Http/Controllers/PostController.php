@@ -26,12 +26,12 @@ class PostController extends Controller
     public function store(Request $request)
     {
         //
-       $feilds = $request->validate([
+       $fields = $request->validate([
             'title' => 'required|max:255',
             'body' => 'required'
         ]);
 
-        $post = Post::create($feilds);
+        $post = Post::create($fields);
 
         // return ['post' => $post];
         return $post;
@@ -49,9 +49,17 @@ class PostController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdatePostRequest $request, Post $post)
+    public function update(Request $request, Post $post)
     {
-        //
+        $fields = $request->validate([
+            'title' => 'required|max:255',
+            'body' => 'required'
+        ]);
+
+        $post->update($fields);
+
+        // return ['post' => $post];
+        return $post;
     }
 
     /**
