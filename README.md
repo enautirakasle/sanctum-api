@@ -6,6 +6,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## About proyect
+
+Laravel breee api aukerarekin instalatuta, post-en cruda api eran eta loginak
+
+Laravel 11 API CRUD app with Authentication using Laravel Sanctum course 2024 | Part 1/2
+https://www.youtube.com/watch?app=desktop&v=LmMJB3STuU4
+
+Laravel 11 API CRUD app with Authentication using Laravel Sanctum course 2024 | Part 2/2
+https://www.youtube.com/watch?v=7pCDK321ckE
+
 
 ## About Laravel
 
