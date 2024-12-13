@@ -8,7 +8,8 @@
 </p>
 ## About proyect
 
-Laravel breee api aukerarekin instalatuta, post-en cruda api eran eta loginak
+Laravel sanctum instalatuta, post-en cruda api eran eta loginak
+
 
 Laravel 11 API CRUD app with Authentication using Laravel Sanctum course 2024 | Part 1/2
 https://www.youtube.com/watch?app=desktop&v=LmMJB3STuU4
