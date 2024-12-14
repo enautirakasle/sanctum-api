@@ -23,7 +23,7 @@ class AuthController extends Controller
         // return ['token' => $token->plainTextToken];
         return [
             'user' => $user,
-            'toker' => $token
+            'token' => $token->plainTextToken
         ];
         // return $request->name . " ok";
 
