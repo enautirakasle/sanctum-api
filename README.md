@@ -17,6 +17,9 @@ https://www.youtube.com/watch?app=desktop&v=LmMJB3STuU4
 Laravel 11 API CRUD app with Authentication using Laravel Sanctum course 2024 | Part 2/2
 https://www.youtube.com/watch?v=7pCDK321ckE
 
+##About proyect
+
+
 
 ## About Laravel
 
